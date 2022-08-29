@@ -86,6 +86,12 @@ catalog:
       rules:
         - allow: [Template]
 
+    # Wait Action Template
+    - type: file
+      target: ../../examples/template/wait-action.yaml
+      rules:
+        - allow: [Template]
+
     # Local example organizational data
     - type: file
       target: ../../examples/org.yaml
